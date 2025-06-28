@@ -1,3 +1,9 @@
 theme: minima
 title: Cyrus Hasanvand
-description: Personal academic website
+author: Cyrus Hasanvand
+description: >
+  Control Engineer and AI Researcher | Online Learning | Nonstationary Systems | Cognitive Modeling
+
+# Optional settings
+show_excerpts: true
+google_analytics: ""  # Add your GA code here if needed
