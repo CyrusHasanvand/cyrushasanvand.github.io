@@ -3,9 +3,92 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Cyrus Hasanvand - Personal Website</title>
+  <title>Cyrus Hasanvand</title>
+  <style>
+    /* Reset and base styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background: url('https://source.unsplash.com/1600x900/?technology,science') no-repeat center center fixed;
+      background-size: cover;
+      color: white;
+      height: 100vh;
+    }
+
+    /* Navbar styles */
+    nav {
+      background-color: rgba(0, 0, 0, 0.6);
+      display: flex;
+      justify-content: space-between;
+      padding: 1rem 2rem;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    nav .logo {
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+
+    nav ul {
+      display: flex;
+      list-style: none;
+      gap: 1.5rem;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-size: 1rem;
+      transition: color 0.3s;
+    }
+
+    nav ul li a:hover {
+      color: #00ffff;
+    }
+
+    .content {
+      padding: 10% 5%;
+      text-align: center;
+      background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    .content h1 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+
+    .content p {
+      font-size: 1.2rem;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+  </style>
 </head>
 <body>
+
+  <nav>
+    <div class="logo">Cyrus</div>
+    <ul>
+      <li><a href="#platforms">Platforms</a></li>
+      <li><a href="#entertainment">Entertainment</a></li>
+      <li><a href="#uncertainty">Uncertainty</a></li>
+      <li><a href="#about">About</a></li>
+    </ul>
+  </nav>
+
+  <div class="content">
+    <h1>Welcome to My Website</h1>
+    <p>Engineer | Researcher | Creator — Exploring uncertainty, cognition, and technology.</p>
+  </div>
+
+  </body>
   <h1>Hello,</h1>
   <p>Welcome to my personal academic website.</p>
   <p>📄 <a href="cv.pdf" target="_blank">Download my CV</a></p>
