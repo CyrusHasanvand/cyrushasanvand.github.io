@@ -1,94 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-<head> 
+<head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Cyrus Hasanvand</title>
   <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    }
-
     body {
-      background-image: url('https://source.unsplash.com/1600x900/?technology,science');
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: url('https://source.unsplash.com/1600x900/?technology') no-repeat center center fixed;
       background-size: cover;
-      background-position: center;
       color: white;
-      height: 100vh;
-      display: flex;
-      justify-content: center;
-      align-items: center; 
-      text-align: center;
-      margin-top: 45px;
     }
 
     nav {
-      position: fixed;
-      width: 100%;
+      background-color: rgba(0, 0, 0, 0.7);
+      padding: 1rem;
+      display: flex;
+      justify-content: center;
+      position: sticky;
       top: 0;
-      left: 0;
-      background-color: rgba(0, 0, 0, 0.6);
-      display: flex;
-      justify-content: space-between; 
-      padding: 1rem 2rem;
-      z-index: 10;
     }
 
-    .logo {
-      font-size: 1.5rem;
+    nav a {
       color: white;
-      margin-right: auto;
-    }
-
-    nav ul {
-      list-style-type: none;
-      display: flex;
-      gap: 1.5rem;
-      align-items: center;
-    }
-
-    nav ul li a {
-      color: white;
-      font-size: 1rem;
       text-decoration: none;
-      transition: color 0.3s;
+      margin: 0 1rem;
+      font-weight: bold;
     }
 
-    nav ul li a:hover {
+    nav a:hover {
       color: #00ffff;
     }
 
-    .content h1, 
-    .content p {
-      max-width: 600px;
+    .content {
+      text-align: center;
+      padding: 20% 10%;
+      background-color: rgba(0, 0, 0, 0.4);
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      font-size: 1.2rem;
     }
   </style>
 </head>
 <body>
 
-<nav>
-  <div class="logo">Cyrus Hasanvand</div> 
-  <ul>
-    <li><a href="#platforms">Platforms</a></li>
-    <li><a href="#entertainment">Entertainment</a></li> 
-    <li><a href="#uncertainty">Uncertainty</a></li>
-    <li><a href="#about">About</a></li> 
-  </ul>
-</nav>
+  <nav>
+    <a href="#">Cyrus</a>
+    <a href="#">Platforms</a>
+    <a href="#">Entertainment</a>
+    <a href="#">Uncertainty</a>
+    <a href="#">About</a>
+  </nav>
 
-<div class="content">
-  <h1>Welcome to My Website</h1>
-  <p>Cyrus Hasanvand - Engineer | Researcher | Creator — Exploring uncertainty, cognition and technology.</p>
-</div>
-
-<script> 
-document.addEventListener("DOMContentLoaded", function(){
-  console.log('ready');
-});
-</script>
+  <div class="content">
+    <h1>Welcome to My Website</h1>
+    <p>Engineer | Researcher | Creator — Exploring uncertainty, cognition, and technology.</p>
+  </div>
 
 </body>
 </html>
