@@ -78,4 +78,95 @@
       line-height: 1.6;
       max-width: 800px;
       margin: 0 auto 1.5rem;
-      text-al
+      text-align: center;
+    }
+
+    a.link {
+      color: #00ffff;
+      text-decoration: none;
+    }
+
+    footer {
+      background: #000;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .links {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1.5rem;
+      margin-top: 1rem;
+    }
+
+    .links a {
+      color: #00ffff;
+      font-size: 1rem;
+      text-decoration: none;
+    }
+
+    .links a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav>
+    <a href="#cyrus">Cyrus</a>
+    <a href="#platforms">Platforms</a>
+    <a href="#entertainment">Entertainment</a>
+    <a href="#uncertainty">Uncertainty</a>
+    <a href="#about">About</a>
+  </nav>
+
+  <!-- Cyrus Section -->
+  <section class="hero" id="cyrus">
+    <h1>Cyrus Hasanvand</h1>
+    <p>Engineer | Researcher | Creator — Exploring uncertainty, cognition, and adaptive AI.</p>
+  </section>
+
+  <!-- Platforms Section -->
+  <section class="dark" id="platforms">
+    <h2>Platforms</h2>
+    <p>I’ve developed intelligent online learning systems like <a class="link" href="https://doi.org/10.1109/TSMC.2024.3454541" target="_blank">UFAREX</a> and REIVAX to detect and adapt to concept drifts in real-time data streams. These platforms are built for nonstationary environments and uncertainty-aware applications.</p>
+  </section>
+
+  <!-- Entertainment Section -->
+  <section class="light" id="entertainment">
+    <h2>Entertainment</h2>
+    <p>Beyond research, I enjoy sci-fi films, chess, gaming, and composing digital music. I believe creativity fuels innovation — even in science.</p>
+  </section>
+
+  <!-- Uncertainty Section -->
+  <section class="dark" id="uncertainty">
+    <h2>Uncertainty Modeling</h2>
+    <p>My core research focuses on uncertainty quantification in AI. I mathematically proved the best unbiased estimators for local noise and global drift in streaming environments. These techniques improve the robustness of autonomous learning systems and cognitive models.</p>
+  </section>
+
+  <!-- About Section -->
+  <section class="light" id="about">
+    <h2>About Me</h2>
+    <p>I am a passionate researcher specializing in autonomous intelligent systems and online learning for nonstationary environments. My work focuses on bridging advanced mathematics and statistics with cognitive-inspired AI to solve fundamental challenges in autonomous learning and universal machine intelligence.</p>
+    
+    <p><strong>Email:</strong> <a class="link" href="mailto:cyrus.hasanvand@gmail.com">cyrus.hasanvand@gmail.com</a></p>
+
+    <div class="links">
+      <a href="https://www.linkedin.com/in/cyrushasanvand/" target="_blank">LinkedIn</a>
+      <a href="https://scholar.google.com/citations?user=A1tb0tsAAAAJ&hl=en" target="_blank">Google Scholar</a>
+      <a href="https://orcid.org/0000-0001-6361-0285" target="_blank">ORCID</a>
+      <a href="https://www.researchgate.net/profile/Cyrus-Hasanvand" target="_blank">ResearchGate</a>
+    </div>
+
+    <p><a class="link" href="cv.pdf" target="_blank">📄 Download My CV</a></p>
+  </section>
+
+  <footer>
+    &copy; 2025 Cyrus Hasanvand. All rights reserved.
+  </footer>
+
+</body>
+</html>
