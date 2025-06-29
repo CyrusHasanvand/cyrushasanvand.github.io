@@ -5,7 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Cyrus Hasanvand</title>
   <style>
-    /* Reset and base styles */
     * {
       margin: 0;
       padding: 0;
@@ -16,12 +15,14 @@
     body {
       background-image: url('https://source.unsplash.com/1600x900/?technology,science');
       background-size: cover;
+      background-position: center;
       color: white;
       height: 100vh;
       display: flex;
       justify-content: center;
       align-items: center; 
       text-align: center;
+      margin-top: 45px;
     }
 
     nav {
@@ -33,44 +34,48 @@
       display: flex;
       justify-content: space-between; 
       padding: 1rem 2rem;
+      z-index: 10;
     }
 
     .logo {
       font-size: 1.5rem;
       color: white;
-      margin-left: -10px;
       margin-right: auto;
     }
-    
-    ul li a { display: block; }
-  
+
     nav ul {
       list-style-type: none;
-      padding: 0;
-      margin: 2rem;
-      
+      display: flex;
+      gap: 1.5rem;
+      align-items: center;
+    }
+
+    nav ul li a {
+      color: white;
+      font-size: 1rem;
+      text-decoration: none;
+      transition: color 0.3s;
+    }
+
+    nav ul li a:hover {
+      color: #00ffff;
     }
 
     .content h1, 
     .content p {
       max-width: 600px;
-      text-align: center;
     }
-    
-    /* Navbar styles */
-    .navbar a { color: white; font-size: 1.5rem;}
-
   </style>
 </head>
 <body>
 
 <nav>
   <div class="logo">Cyrus Hasanvand</div> 
-  <ul style="margin-left:-20px;">
-    <li><a href="#platforms" style="color:white;" onclick="window.location.href='#';return false;">Platforms</a></li>
-    <li><a href="#entertainment" style="color: white;" onclick="window.location.href='#';return false;">Entertainment</a></li> 
-    <li><a href="#uncertainty" style="color:white;" onclick="window.location.href='#';return false;">Uncertainty</a></li>
-    <li><a href="#about" style="color: white;" onclick="window.location.href='#';return false;">About</a></li> 
+  <ul>
+    <li><a href="#platforms">Platforms</a></li>
+    <li><a href="#entertainment">Entertainment</a></li> 
+    <li><a href="#uncertainty">Uncertainty</a></li>
+    <li><a href="#about">About</a></li> 
   </ul>
 </nav>
 
@@ -78,17 +83,12 @@
   <h1>Welcome to My Website</h1>
   <p>Cyrus Hasanvand - Engineer | Researcher | Creator — Exploring uncertainty, cognition and technology.</p>
 </div>
-  
-<style>
-    .navbar { position: fixed; top:0; left:50%; margin-left:-10px;}
-    
-    body{margin-top :45px}
- </style>
 
 <script> 
- document.addEventListener("DOMContentLoaded", function(){
-  console.log('ready')
- });
+document.addEventListener("DOMContentLoaded", function(){
+  console.log('ready');
+});
 </script>
 
 </body>
+</html>
