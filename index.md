@@ -1,11 +1,11 @@
 ---
-layout: home
-title: Welcome
+layout: H
+title: NN->
 ---
 
-# 👋 Welcome to My Personal Academic Website
+# 👋 Welcome to My Academic Website
 
-I’m **Cyrus Hasanvand**, a Control Engineer and AI Researcher focused on:
+I’m **Cyrus Hasanvand**, a AI Researcher focused on:
 - Online Learning in Nonstationary Environments
 - Robust Uncertainty Quantification
 - Cognitive & Computational Neuroscience
@@ -20,14 +20,13 @@ I’m **Cyrus Hasanvand**, a Control Engineer and AI Researcher focused on:
 - Autonomous Learning Architectures
 
 ## 📚 Publications
-- **UFAREX** – Uncertainty-aware fault recovery system
-- **REIVAX** – Robust extended intelligent variational inference model
-- Full list available upon request or LinkedIn
+- **UFAREX**
+- **REIVAX**
 
 ## 📫 Contact
-- Email: your.email@example.com
+- Email: cyrus@h.com
 - GitHub: [github.com/cyrushasanvand](https://github.com/cyrushasanvand)
-- LinkedIn: [linkedin.com/in/your-profile](https://linkedin.com/in/your-profile)
+- LinkedIn: [linkedin.com/in/H-profile](https://linkedin.com/in/your-profile)
 
 ---
 
