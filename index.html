@@ -4,6 +4,10 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Cyrus Hasanvand</title>
+
+  <!-- Font Awesome for social icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+
   <style>
     body {
       margin: 0;
@@ -97,18 +101,19 @@
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
-      gap: 1.5rem;
-      margin-top: 1rem;
+      gap: 2rem;
+      margin-top: 1.5rem;
     }
 
-    .links a {
+    .links a i {
+      font-size: 1.8rem;
       color: #00ffff;
-      font-size: 1rem;
-      text-decoration: none;
+      transition: transform 0.3s ease, color 0.3s ease;
     }
 
-    .links a:hover {
-      text-decoration: underline;
+    .links a:hover i {
+      transform: scale(1.2);
+      color: #ffffff;
     }
   </style>
 </head>
@@ -148,7 +153,7 @@
   <section class="dark" id="publications">
     <h2>Publications</h2>
     <p>
-      Cyrus Hasanvand, et al. (2024): <strong>UFAREX: A Universal Fully Autonomous Robust Expansionist Fuzzy System For Optimal Online Learning From Nonstationary Data Streams</strong>,
+      Cyrus Hasanvand, et al. (2024): <strong>UFAREX: A Universal Fully Autonomous Robust Expansionist Fuzzy System For Optimal Online Learning From Nonstationary Data Streams</strong>, 
       <a class="link" href="https://doi.org/10.1109/TSMC.2024.3454541" target="_blank">
         IEEE Transactions on Systems, Man, and Cybernetics
       </a>
@@ -160,17 +165,3 @@
     <h2>Contact</h2>
     <p>Email: <a class="link" href="mailto:cyrus.hasanvand@gmail.com">cyrus.hasanvand@gmail.com</a></p>
     <div class="links">
-      <a href="https://www.linkedin.com/in/cyrushasanvand/" target="_blank">LinkedIn</a>
-      <a href="https://scholar.google.com/citations?user=A1tb0tsAAAAJ&hl=en" target="_blank">Google Scholar</a>
-      <a href="https://orcid.org/0000-0001-6361-0285" target="_blank">ORCID</a>
-      <a href="https://www.researchgate.net/profile/Cyrus-Hasanvand" target="_blank">ResearchGate</a>
-      <!-- <a href="cv.pdf" target="_blank">📄 Download My CV</a> -->
-    </div>
-  </section>
-
-  <footer>
-    &copy; 2025 Cyrus Hasanvand
-  </footer>
-
-</body>
-</html>
