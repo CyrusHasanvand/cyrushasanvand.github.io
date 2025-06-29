@@ -49,6 +49,11 @@
       background-image: url('1WP_20180504_030.jpg');
       background-size: cover;
       background-position: center;
+      min-height: 100vh;
+      display: flex;
+      justify-content: flex-end;   /* 👈 Align text to bottom */
+      padding: 50px 20px;          /* 👈 Add space from bottom and sides */
+      text-align: center;
     }
 
     .dark {
@@ -92,7 +97,10 @@
     .links img:hover {
       transform: scale(1.2);
     }
-
+    .hero-text h1, .hero-text p {
+    color: white;
+    text-shadow: 1px 1px 4px rgba(0,0,0,0.7); /* Optional: improves readability */
+    }
     footer {
       background: #000;
       text-align: center;
