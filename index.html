@@ -58,3 +58,116 @@
       font-size: 1.2rem;
       max-width: 600px;
     }
+
+    .dark {
+      background-color: #222;
+    }
+
+    .light {
+      background-color: #333;
+    }
+
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      text-align: center;
+    }
+
+    p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+      max-width: 800px;
+      margin: 0 auto 1.5rem;
+      text-align: center;
+    }
+
+    a.link {
+      color: #00ffff;
+      text-decoration: none;
+    }
+
+    footer {
+      background: #000;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .links {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1.5rem;
+      margin-top: 1rem;
+    }
+
+    .links a {
+      color: #00ffff;
+      font-size: 1rem;
+      text-decoration: none;
+    }
+
+    .links a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav>
+    <a href="#about">About</a>
+    <a href="#research">Research</a>
+    <a href="#publications">Publications</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="about">
+    <h1>Cyrus Hasanvand</h1>
+    <p>Engineer | Researcher | Creator — Exploring uncertainty, cognition, and adaptive AI.</p>
+  </section>
+
+  <!-- About Section -->
+  <section class="dark">
+    <h2>About</h2>
+    <p>I am a passionate researcher specializing in autonomous intelligent systems and online learning for nonstationary environments. My work focuses on bridging advanced mathematics and statistics with cognitive-inspired AI to solve fundamental challenges in autonomous learning and universal machine intelligence.</p>
+  </section>
+
+  <!-- Research Section -->
+  <section class="light" id="research">
+    <h2>Research</h2>
+    <p>I work on real-time uncertainty quantification and adaptive learning. My contributions include <strong>UFAREX</strong> and REIVAX — intelligent platforms for concept drift adaptation and robustness in nonstationary environments.</p>
+  </section>
+
+  <!-- Publications Section -->
+  <section class="dark" id="publications">
+    <h2>Publications</h2>
+    <p>
+      <strong>UFAREX:</strong>
+      <a class="link" href="https://doi.org/10.1109/TSMC.2024.3454541" target="_blank">
+        IEEE Transactions on Systems, Man, and Cybernetics
+      </a>
+    </p>
+    <!-- Add more publications here -->
+  </section>
+
+  <!-- Contact Section -->
+  <section class="light" id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a class="link" href="mailto:cyrus.hasanvand@gmail.com">cyrus.hasanvand@gmail.com</a></p>
+    <div class="links">
+      <a href="https://www.linkedin.com/in/cyrushasanvand/" target="_blank">LinkedIn</a>
+      <a href="https://scholar.google.com/citations?user=A1tb0tsAAAAJ&hl=en" target="_blank">Google Scholar</a>
+      <a href="https://orcid.org/0000-0001-6361-0285" target="_blank">ORCID</a>
+      <a href="https://www.researchgate.net/profile/Cyrus-Hasanvand" target="_blank">ResearchGate</a>
+      <!-- comment --><a href="cv.pdf" target="_blank">📄 Download My CV</a>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Cyrus Hasanvand. All rights reserved.
+  </footer>
+
+</body>
+</html>
