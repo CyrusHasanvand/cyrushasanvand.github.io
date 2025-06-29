@@ -5,14 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Cyrus Hasanvand</title>
 
-  <!-- Font Awesome for social icons (FIXED) -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-wxM1DScv9cUljMDcu+XlGVXeOZt6YHJ5W9sOBgK0nNdny7+dAoCpi1UMyo7FGbf0mJTw2nlmReNfInNq68H+qA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
   <style>
     body {
       margin: 0;
       font-family: 'Segoe UI', sans-serif;
       scroll-behavior: smooth;
+      color: white;
     }
 
     nav {
@@ -38,14 +36,8 @@
     }
 
     section {
-      min-height: 100vh;
       padding: 100px 20px 50px;
-      color: white;
-    }
-
-    .hero {
-      background: url('https://source.unsplash.com/1600x900/?technology,science') no-repeat center center fixed;
-      background-size: cover;
+      min-height: 100vh;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -53,14 +45,10 @@
       text-align: center;
     }
 
-    .hero h1 {
-      font-size: 3rem;
-      margin-bottom: 1rem;
-    }
-
-    .hero p {
-      font-size: 1.2rem;
-      max-width: 600px;
+    .hero {
+      background-image: url('1WP_20180504_030.jpg');
+      background-size: cover;
+      background-position: center;
     }
 
     .dark {
@@ -71,18 +59,15 @@
       background-color: #333;
     }
 
-    h2 {
-      font-size: 2rem;
+    h1, h2 {
       margin-bottom: 1rem;
-      text-align: center;
     }
 
     p {
       font-size: 1.1rem;
-      line-height: 1.6;
       max-width: 900px;
-      margin: 0 auto 1.5rem;
-      text-align: center;
+      margin-bottom: 1.5rem;
+      line-height: 1.6;
     }
 
     a.link {
@@ -90,51 +75,50 @@
       text-decoration: none;
     }
 
-    footer {
-      background: #000;
-      color: white;
-      text-align: center;
-      padding: 20px;
-    }
-
     .links {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
-      gap: 2rem;
-      margin-top: 1.5rem;
+      gap: 1.5rem;
+      margin-top: 1rem;
     }
 
-    .links a i {
-      font-size: 1.8rem;
-      color: #00ffff;
-      transition: transform 0.3s ease, color 0.3s ease;
+    .links img {
+      width: 32px;
+      height: 32px;
+      transition: transform 0.3s ease;
     }
 
-    .links a:hover i {
+    .links img:hover {
       transform: scale(1.2);
-      color: #ffffff;
+    }
+
+    footer {
+      background: #000;
+      text-align: center;
+      padding: 20px;
     }
   </style>
 </head>
 <body>
 
-  <!-- Navbar -->
+  <!-- Navigation -->
   <nav>
+    <a href="#home">Home</a>
     <a href="#about">About</a>
     <a href="#research">Research</a>
     <a href="#publications">Publications</a>
     <a href="#contact">Contact</a>
   </nav>
 
-  <!-- Hero Section -->
-  <section class="hero" id="about">
+  <!-- Hero Section (Home) -->
+  <section class="hero" id="home">
     <h1>Cyrus Hasanvand</h1>
     <p>Engineer | Researcher | Creator — Exploring uncertainty, cognition, and adaptive AI.</p>
   </section>
 
   <!-- About Section -->
-  <section class="dark">
+  <section class="dark" id="about">
     <h2>About</h2>
     <p>
       I am a passionate researcher specializing in universal autonomous intelligent systems and online learning for nonstationary environments. My work focuses on bridging advanced mathematics and statistics with cognitive-inspired AI to solve fundamental challenges in computational and artificial intelligence.
@@ -172,21 +156,21 @@
     <p>Email: <a class="link" href="mailto:cyrus.hasanvand@gmail.com">cyrus.hasanvand@gmail.com</a></p>
     <div class="links">
       <a href="https://www.linkedin.com/in/cyrushasanvand/" target="_blank" title="LinkedIn">
-        <i class="fab fa-linkedin"></i>
+        <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn">
       </a>
       <a href="https://scholar.google.com/citations?user=A1tb0tsAAAAJ&hl=en" target="_blank" title="Google Scholar">
-        <i class="fas fa-graduation-cap"></i>
+        <img src="https://cdn-icons-png.flaticon.com/512/300/300221.png" alt="Google Scholar">
       </a>
       <a href="https://orcid.org/0000-0001-6361-0285" target="_blank" title="ORCID">
-        <i class="fab fa-orcid"></i>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/0/06/ORCID_iD.svg" alt="ORCID">
       </a>
       <a href="https://www.researchgate.net/profile/Cyrus-Hasanvand" target="_blank" title="ResearchGate">
-        <i class="fab fa-researchgate"></i>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/ResearchGate_icon_SVG.svg" alt="ResearchGate">
       </a>
-      <!-- <a href="cv.pdf" target="_blank">📄 Download My CV</a> -->
     </div>
   </section>
 
+  <!-- Footer -->
   <footer>
     &copy; 2025 Cyrus Hasanvand
   </footer>
