@@ -1,13 +1,13 @@
----
+/* ---
 layout: H
 title: NN->
----
+--- */
 
 # 👋 Welcome to My Academic Website
 
 I’m **Cyrus Hasanvand**, a AI Researcher focused on:
 - Online Learning in Nonstationary Environments
-- Robust Uncertainty Quantification
+- Uncertainty Quantification
 - Cognitive & Computational Neuroscience
 
 ---
@@ -24,9 +24,7 @@ I’m **Cyrus Hasanvand**, a AI Researcher focused on:
 - **REIVAX**
 
 ## 📫 Contact
-- Email: cyrus@h.com
-- GitHub: [github.com/cyrushasanvand](https://github.com/cyrushasanvand)
-- LinkedIn: [linkedin.com/in/H-profile](https://linkedin.com/in/your-profile)
+- Email: cyrus.hasanvand@gmail.com
 
 ---
 
